@@ -1,0 +1,412 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(34, 28, 28);
+}
+
+#Top_header {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(33, 32, 31);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+
+}
+#Top_header div
+{
+    /* width: 33%; */
+    /* border: 2px solid rebeccapurple; */
+}
+
+#sign_logo {
+   
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid rgb(37, 35, 35);
+    color: antiquewhite;
+   
+}#sign_logo p{
+    margin-left: 60px;
+}
+
+#Marvel_logo {
+    width: 150px;
+    border: 1px solid rgb(37, 35, 35);
+    /* background-image: url(../image/marvel\ logo.jpg); */
+    background-size: cover;
+    margin-left: 200px;
+}
+
+#Marvel_logo img {
+    width: 100%;
+    height: 100%;
+    /* margin-left: 150px; */
+
+}
+
+#subscribe_section {
+    width: 500px;
+    justify-content: center;
+    float: left;
+    justify-content: flex-end;
+    border: 1px solid rgb(37, 35, 35);
+
+
+}
+
+#subscribe_logo {
+    border: 1px solid rgb(37, 35, 35);
+    width: 180px;
+    float: left;
+    height: 100%;
+    margin-left: 30px;
+  
+}
+
+
+#search_logo {
+    color: white;
+    font-size: 25px;
+    /* justify-content: center; */
+    padding: 10pxm;
+    /* border: 2px solid rebeccapurple; */
+    float: left;
+    margin-left: 10px;
+    height: 100%;
+    padding-top: 10px;
+}
+
+#menu_section {
+    width: 100%;
+    height: 50px;
+    /* text-align: center; */
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    background-color: black;
+    /* display: grid; */
+    border: 1px solid rgb(37, 35, 35);
+}
+
+#menu_section ul {
+
+    display: flex;
+    text-decoration: none;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+#menu_section ul li a {
+
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 12px;
+    list-style: none;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#add {
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(185, 177, 167);
+    background-color: black;
+    font-size: 13px;
+
+
+}
+
+#top_banner {
+    width: 100%;
+    height: 550px;
+    background-color: aqua;
+    background-attachment: fixed;
+}
+
+#top_banner img {
+    width: 100%;
+    height: 100%;
+    /* background-position: center; */
+
+}
+
+#news_box {
+    width: 80%;
+    height: 70px;
+    background-color: rgba(232, 221, 221, 0.952);
+    /* margin-top: -10px; */
+    margin: auto;
+    border: 1px solid rgb(158, 37, 37);
+    z-index: 1;
+transform: translateY(-20px);
+}
+
+#news_box ul {
+    list-style: none;
+    
+    display: inline-flex;
+    gap: 15px;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#news_box ul li {
+    
+}
+
+#news_box ul li a {
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    /* font-weight: 900; */
+    padding top: 10px;
+}
+#news_box span {
+    margin-left: 100px;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+#news_box span i {
+    align-items: center;
+    padding-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+/* comic section */
+
+#comic_section{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(6, 6, 6);
+    background-position: center;
+    display: inline-block;
+    flex-direction: column;
+}
+#comic_content
+{
+width: 50%;
+height: 500px;
+background-color: rgb(5, 6, 6);
+/* flex-direction: column; */
+float: left;
+/* transform:skew(10deg); */
+padding-top: 150px;
+box-sizing: border-box;
+
+text-align: center;
+
+}
+#comic_content h1{
+    text-align: left;
+    margin-top: -10px;
+    margin-left: 80px;
+    color: crimson;
+}
+#comic_content h2{
+    font-weight: bolder;
+    font-size: 35px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#comic_content p{
+    margin-left: -55px;
+    font-size: 20px;
+}
+#comic_poster
+{
+    width: 50%;
+height: 500px;
+/* background-color: rgb(255, 0, 21); */
+float: left;
+flex-direction: column;
+/* margin-top: -10px; */
+/* transform: skewx(10deg); */
+padding: 5px;
+
+}
+#viral_comic{
+    width: 100%;
+    height: 400px;
+    color: black;
+   padding: 20px;
+   background-color: rgb(8, 8, 8);
+   display: flex;
+   overflow: hidden;
+   justify-content: space-around;
+   gap: 40px;
+/* margin-top: -10px; */
+
+    
+}
+#viral_comic div{
+    width:20%;
+    height: 100%;
+    border:3px solid rgb(239, 226, 226);
+    box-shadow: 2px 3px 3px whitesmoke;
+
+}   
+#viral_comic div img{
+    width: 100%;
+
+    height: 70%;
+
+
+}
+#comic_btn
+{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(13, 13, 13);
+    text-shadow: 0px,2px.3px;
+    box-shadow: 0px,2px,4px;
+    font-weight: bolder;
+    cursor: pointer;
+    border: 3px solid rgb(241, 231, 231);
+    border-radius: 5px;
+    color: aliceblue;
+}
+#comic_btn:hover
+{
+    background-color: rgb(200, 245, 156);
+    box-shadow: 2px 5px 3px grey;
+    /* font-size: 30px; */
+    color: chocolate;
+}
+
+
+/* news section ........................................................ */
+
+#page{
+    background-color: rgb(62, 64, 60);
+    height: 500px;
+    width: 100%;
+    margin-bottom: 20px;
+    /* overflow: hidden; */
+}
+#page .sliderSection{
+    width: 100%;
+    height: 100%;
+    border: 2px solid red;
+    display: flex;
+    /* overflow: hidden; */
+}
+.slides{
+    border: 2px solid blue;
+    width: 100%;
+    height: 100%;
+    flex: 0 0 100%;
+}
+.textContent{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+
+}
+.videoSection{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.videoSection video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+/* #contactdata
+{
+  text-align: center;
+  margin-bottom: 100px;
+}
+#contactdata2
+{
+  height: 530px;
+  width: 50%;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  float: left;
+}
+#contactdata2 input
+{
+  height: 55px;
+  width: 660px;
+  margin-bottom: 20px;
+  border-radius: 50px;
+  border: 2px;
+  padding-left: 20px;
+  font-size: 20px;
+
+}
+#contactdata2 textarea
+{
+  height: 55px;
+  width: 660px;
+  margin-bottom: 20px;
+  border-radius: 50px;
+  border: none;
+  padding-left: 20px;
+  font-size: 20px;
+  padding-top: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} */
+#insider{
+    background-color: black;
+    display: flex;
+}
+.insider_image{
+    margin-left: 8%;
+}
+.insider_image img{
+height: 100%;
+width: 700px;
+}
+.insider_content{
+    text-align: center;
+    width: 100%;
+    margin-top: 7%;
+    /* justify-content: center; */
+}
+.insider_content h1,h2,p{
+    color: white;
+    margin-bottom: 2%;
+}
+.insider_content h1{
+    color: chocolate;
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    /* margin-top: -10px; */
+}
+.insider_content h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    font: weight 5000px;
+}
+.insider_content p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+.insider_content img:hover{
+    cursor: pointer;
+}
